@@ -15,16 +15,16 @@
     
 </head>
 
-<body class="bg-[#41ff6b1a]">
+<body class="bg-[#41ff6b1a] ">
     <!-- nevbar section  -->
-    <header class="navbar flex justify-between items-center bg-white">
-        <div class="flex gap-2 items-center">
-            <img src="./assets/logo.png" alt="" class="h-[50px] w-[50px]">
-            <h2 class="text-[#006747] font-bold">Emergency <br> Service</h2>
+    <header class="navbar flex  justify-between items-center   bg-white">
+        <div class="flex flex-row gap-2 items-center">
+            <img src="./assets/logo.png" alt="" class="md:h-[50px] md:w-[50px] h-[40px] w-[40px]">
+            <h2 class="text-[#006747] font-bold text-[12px] md:text-[18px]">Emergency <br> Service</h2>
         </div>
-        <div class="join gap-5">
+        <div class="join md:gap-5 gap-[3px]">
             <button class="btn rounded-full bg-[#41ff6b1a]"><span id="nevber-heart">0</span> <img class="w-[24px] h-[24px]" src="./assets/heart.png" alt=""> </button>
-            <button class="btn rounded-full bg-[#41ff6b1a]">100 <img class="w-[24px] h-[24px]" src="./assets/coin.png" alt=""> </button>
+            <button class="btn rounded-full bg-[#41ff6b1a] "><span  id="navber-coin">100</span> <img class="w-[24px] h-[24px]" src="./assets/coin.png" alt=""> </button>
             <button class="btn rounded-full bg-[#00a63e] text-white"><span id="navber-copy-btn">0</span>Copy</button>
         </div>
     </header>
@@ -40,9 +40,9 @@
         </section>
         <!-- card section -->
         <section id="sarvice-container" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8">
-            <div class="col-span-9">
-                <div id="card-container-heart" class="grid grid-cols-3 gap-8 ">
-                    <!-- all -->
+            <div class="md:col-span-9 col-span-12  ">
+                <div id="card-container-heart" class="grid md:grid-cols-3 grid-cols-1 gap-8 ">
+                    <!-- all 1 -->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
                             <div class="bg-[#ffe3e2] p-4 rounded-2xl">
@@ -62,13 +62,13 @@
                             <div class="card-actions justify-between mt-4">
                                 <button  class="btn copy-btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button id="call-btn" class="btn  bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button id="all-call" class="btn call-btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- police -->
+                    <!-- police  2-->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
                             <div class="bg-[#ffe3e2] p-4 rounded-2xl">
@@ -88,13 +88,13 @@
                             <div class="card-actions justify-between mt-4">
                                 <button class="btn copy-btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button class="btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button id="police-call" class="btn call-btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- fire -->
+                    <!-- fire 3-->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
                             <div class="bg-[#ffe3e2] p-4 rounded-2xl">
@@ -114,13 +114,13 @@
                             <div class="card-actions justify-between mt-4">
                                 <button  class="btn copy-btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button class="btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button id="fier-call" class="btn call-btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- health -->
+                    <!-- health 4 -->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
                             <div class="bg-[#ffe3e2] p-4 rounded-2xl">
@@ -140,13 +140,13 @@
                             <div class="card-actions justify-between mt-4">
                                 <button  class="btn copy-btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button class="btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button id="health-call" class="btn call-btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- help -->
+                    <!-- help 5 -->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
                             <div class="bg-[#ffe3e2] p-4 rounded-2xl">
@@ -166,13 +166,13 @@
                             <div class="card-actions justify-between mt-4">
                                 <button  class="btn copy-btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button class="btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button id="ambulance-call" class="btn call-btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Govt -->
+                    <!-- Govt 6-->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
                             <div class="bg-[#ffe3e2] p-4 rounded-2xl">
@@ -192,13 +192,13 @@
                             <div class="card-actions justify-between mt-4">
                                 <button  class="btn copy-btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button class="btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button id="government-call" class="btn call-btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Electricity -->
+                    <!-- Electricity 7-->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
                             <div class="bg-[#ffe3e2] p-4 rounded-2xl">
@@ -218,13 +218,13 @@
                             <div class="card-actions justify-between mt-4">
                                 <button  class="btn copy-btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button class="btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button id="electricity-call" class="btn call-btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- NGO -->
+                    <!-- NGO 8-->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
                             <div class="bg-[#ffe3e2] p-4 rounded-2xl">
@@ -244,13 +244,13 @@
                             <div class="card-actions justify-between mt-4">
                                 <button  class="btn copy-btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button class="btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button id="ngo-call" class="btn call-btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Travel -->
+                    <!-- Travel 9 -->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
                             <div class="bg-[#ffe3e2] p-4 rounded-2xl">
@@ -270,7 +270,7 @@
                             <div class="card-actions justify-between mt-4">
                                 <button  class="btn copy-btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button class="btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button id="travel-call" class="btn call-btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
 
@@ -281,17 +281,17 @@
             </div>
            
             <!-- call history -->
-            <div class="col-span-3">
-                <div class="card bg-white rounded-xl">
+            <div class="md:col-span-3 col-span-12 md:w-full md:w-[300px] h-full">
+                <div class="card bg-white rounded-xl h-full">
                     
-                        <div class="flex justify-between items-center mb-4 md:p-[24px] ">
+                        <div class="flex justify-between items-center mb-4 md:p-[24px] p-[10px] ">
                             <h2 class="card-title"><i class="fa-regular fa-clock"></i> Call History</h2>
                             <button id="clear-btn" class="btn bg-[#00a63e] text-[white] rounded-3xl w-[114px]">Clear</button>
                         </div>
 
-                        <div class="card-body " id="call-history" >
+                    <div class="card-body " id="call-history">
 
-                        <div id="all-call-history" class=" flex justify-between items-center bg-[#fafafa] p-4 ">
+                        <div id="add-call-history" class=" addClass flex justify-between items-center bg-[#fafafa] p-4 ">
                             <div >
                                 <h1>Fire Service Number</h1>
                                 <p>999</p>
@@ -301,7 +301,7 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-between items-center bg-[#fafafa] p-4">
+                        <div id="National-Emergency" class="flex justify-between items-center bg-[#fafafa] p-4">
                             <div>
                                 <h1>National Emergency <br> Number</h1>
                                 <p>1994-999999</p>
@@ -311,7 +311,7 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-between items-center bg-[#fafafa] p-4">
+                        <div id="Fire-Service" class="flex justify-between items-center bg-[#fafafa] p-4">
                             <div>
                                 <h1>Fire Service Number</h1>
                                 <p>999</p>
@@ -321,7 +321,7 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-between items-center bg-[#fafafa] p-4">
+                        <div id="Bangladesh-Railway" class="flex justify-between items-center bg-[#fafafa] p-4">
                             <div>
                                 <h1>Bangladesh Railway <br> Helpline </h1>
                                 <p>999</p>
@@ -341,7 +341,7 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-between items-center bg-[#fafafa] p-4">
+                        <div id="Anti-Corruption" class="flex justify-between items-center bg-[#fafafa] p-4">
                             <div>
                                 <h1>Anti-Corruption Helpline</h1>
                                 <p>999</p>
