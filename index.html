@@ -23,8 +23,8 @@
             <h2 class="text-[#006747] font-bold">Emergency <br> Service</h2>
         </div>
         <div class="join gap-5">
-            <button class="btn rounded-full bg-[#41ff6b1a]">Button</button>
-            <button class="btn rounded-full bg-[#41ff6b1a]">Button</button>
+            <button class="btn rounded-full bg-[#41ff6b1a]"><span id="nevber-heart">0</span> <img class="w-[24px] h-[24px]" src="./assets/heart.png" alt=""> </button>
+            <button class="btn rounded-full bg-[#41ff6b1a]">100 <img class="w-[24px] h-[24px]" src="./assets/coin.png" alt=""> </button>
             <button class="btn rounded-full bg-[#00a63e]">Button</button>
         </div>
     </header>
@@ -36,14 +36,12 @@
                 <img src="./assets/logo-dark.png" alt="" class="h-[92px] w-[92px]">
             </div>
             <h1 class="text-white text-[40px] font-bold">Emergency Service Directory</h1>
-            <p class="text-white text-[20px] font-semibold">Government Emergency Services at Your Fingertip – A
-                Project by
-                Government of the People’s Republic of Bangladesh</p>
+            <p class="text-white text-[20px] font-semibold">Government Emergency Services at Your Fingertip - A Project by Government of the People's Republic of Bangladesh</p>
         </section>
         <!-- card section -->
         <section id="sarvice-container" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8">
             <div class="col-span-9">
-                <div class="grid grid-cols-3 gap-8">
+                <div id="card-container-heart" class="grid grid-cols-3 gap-8 ">
                     <!-- all -->
                     <div class="card bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-xl">
                         <div class="flex justify-between items-center mx-8 mt-8">
@@ -51,7 +49,7 @@
                                 <img src="./assets/emergency.png" alt="" class="h-8 w-8">
                             </div>
                             <div>
-                                <i class="fa-regular fa-heart w-6 h-6"></i>
+                                <button class="card-heart"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                             </div>
                         </div>
 
@@ -62,9 +60,9 @@
                             <div class="badge bg-[#f2f2f2]">All</div>
 
                             <div class="card-actions justify-between mt-4">
-                                <button class="btn text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
+                                <button class="btn  text-[#5C5C5C]"><i class="fa-regular fa-clone"></i>
                                     Copy</button>
-                                <button class="btn bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
+                                <button class="btn  bg-[#00a63e] text-[white]"><i class="fa-solid fa-phone"></i>
                                     Call</button>
                             </div>
                         </div>
@@ -77,7 +75,7 @@
                                 <img src="./assets/police.png" alt="" class="h-8 w-8">
                             </div>
                             <div>
-                                <i class="fa-regular fa-heart w-6 h-6"></i>
+                                <button class="card-heart"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                             </div>
                         </div>
 
@@ -103,7 +101,7 @@
                                 <img src="./assets/fire-service.png" alt="" class="h-8 w-8">
                             </div>
                             <div>
-                                <i class="fa-regular fa-heart w-6 h-6"></i>
+                                <button class="card-heart"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                             </div>
                         </div>
 
@@ -129,7 +127,7 @@
                                 <img src="./assets/ambulance.png" alt="" class="h-8 w-8">
                             </div>
                             <div>
-                                <i class="fa-regular fa-heart w-6 h-6"></i>
+                                <button class="card-heart"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                             </div>
                         </div>
 
@@ -155,7 +153,7 @@
                                 <img src="./assets/emergency.png" alt="" class="h-8 w-8">
                             </div>
                             <div>
-                                <i class="fa-regular fa-heart w-6 h-6"></i>
+                                <button class="card-heart"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                             </div>
                         </div>
 
@@ -181,7 +179,7 @@
                                 <img src="./assets/emergency.png" alt="" class="h-8 w-8">
                             </div>
                             <div>
-                                <i class="fa-regular fa-heart w-6 h-6"></i>
+                                <button class="card-heart"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                             </div>
                         </div>
 
@@ -207,7 +205,7 @@
                                 <img src="./assets/emergency.png" alt="" class="h-8 w-8">
                             </div>
                             <div>
-                                <i class="fa-regular fa-heart w-6 h-6"></i>
+                                <button class="card-heart"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                             </div>
                         </div>
 
@@ -233,7 +231,7 @@
                                 <img src="./assets/brac.png" alt="" class="h-8 w-8">
                             </div>
                             <div>
-                                <i class="fa-regular fa-heart w-6 h-6"></i>
+                                <button class="card-heart"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                             </div>
                         </div>
 
@@ -259,7 +257,7 @@
                                 <img src="./assets/Bangladesh-Railway.png" alt="" class="h-8 w-8">
                             </div>
                             <div>
-                                <i class="fa-regular fa-heart w-6 h-6"></i>
+                                <button class="card-heart"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                             </div>
                         </div>
 
@@ -285,13 +283,13 @@
             <!-- call history -->
             <div class="col-span-3">
                 <div class="card bg-white rounded-xl">
-                    <div class="card-body">
+                    
                         <div class="flex justify-between items-center mb-4">
                             <h2 class="card-title"><i class="fa-regular fa-clock"></i> Call History</h2>
-                            <button class="btn bg-[#00a63e] text-[white] rounded-3xl w-[114px]">Clear</button>
+                            <button id="clear-btn" class="btn bg-[#00a63e] text-[white] rounded-3xl w-[114px]">Clear</button>
                         </div>
 
-
+                        <div class="card-body" id="call-history" >
                         <div class="flex justify-between items-center bg-[#fafafa] p-4">
                             <div >
                                 <h1>Fire Service Number</h1>
@@ -351,12 +349,13 @@
                                 <p>11:36:58 AM</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
     </main>
-</body>
 
+    <script src="./index.js"></script>
+
+</body>
 </html>
