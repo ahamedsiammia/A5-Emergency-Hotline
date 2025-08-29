@@ -225,29 +225,6 @@ document.getElementById('travel-call').addEventListener('click',function(e){
 
 
 
-// call button click and add history
-// const mainCallHistory = document.getElementById('card-container-heart');
-
-// mainCallHistory.addEventListener('click',function (e) {
-//     e.preventDefault()
-//     if(e.target.closest('.call-btn')){
-
-      
-    
-//     const parentCallHistory = document.getElementById('call-history')
-
-    
-//     const addTimeElement = document.getElementById('add-call-history')
-
-    
-//     const creatElement = addTimeElement.cloneNode(true)
-
-
-//     parentCallHistory.appendChild(creatElement)
-// }})
-
-
-
 
 // Fire Service Number
 const mainCallHistory =document.getElementById('all-call').addEventListener('click',function(e){
