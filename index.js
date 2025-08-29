@@ -17,6 +17,14 @@ cardContainerHerat.addEventListener('click',function(e){
 })
 
 
+// clear button functionality
+document.getElementById('clear-btn').addEventListener('click',function(e){
+    e.preventDefault()
+    
+    document.getElementById('call-history').style.display = 'none'
+      
+})
+
 
 
 
